@@ -40,14 +40,14 @@ async function getSongs(folder) {
     let songUL = document.querySelector(".songList").getElementsByTagName("ul")[0] // Here if [0] is not used, only <ul> will be selected and not </ul>
     songUL.innerHTML = " ";
     for (const song of songs) {
-        songUL.innerHTML = songUL.innerHTML + `<li><img src="Card Images/music.svg" alt="">
+        songUL.innerHTML = songUL.innerHTML + `<li><img src="CardImages/music.svg" alt="">
         <div class="info">
             <div>${song.replaceAll("%20", " ")}</div>
             <div></div>
         </div>
         <div class="playNow">
             <span>Play Now</span>
-            <img class="invert" src="Card Images/play.svg" alt="">
+            <img class="invert" src="CardImages/play.svg" alt="">
         </div></li>`;
     }
 
@@ -65,7 +65,7 @@ const playMusic = (track, pause = false) => {
     currentSong.src = `/${currFolder}/` + track;
     if (!pause) {
         currentSong.play();
-        play.src = "card Images/pause.svg"
+        play.src = "cardImages/pause.svg"
     }
 
     document.querySelector(".songinfo").innerHTML = decodeURI(track);
@@ -127,10 +127,10 @@ async function main() {
     play.addEventListener("click", () => {
         if (currentSong.paused) {
             currentSong.play()
-            play.src = "Card Images/pause.svg"
+            play.src = "CardImages/pause.svg"
         } else {
             currentSong.pause()
-            play.src = "Card Images/play.svg"
+            play.src = "CardImages/play.svg"
         }
     })
 
