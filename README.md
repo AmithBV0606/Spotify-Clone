@@ -18,7 +18,7 @@
   </li>
   <li>On Phone : 
     <div><img width="170" alt="image" src="https://github.com/AmithBV0606/Spotify-Clone/assets/154083629/09b4e305-7dc5-44c8-bc65-0849d886e4f3"></div>
-  /li>
+  </li>
 </ol>
 
 Note : Feedbacks of anyone who views and interact with this repo is highly appreciated.
