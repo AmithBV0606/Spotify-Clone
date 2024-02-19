@@ -1,1 +1,18 @@
 # Spotify-Clone
+
+About : This Spotify clone is a web application that tries to replicates the core functionality of the popular music streaming service. The interface is designed with HTML and styled with CSS to closely resemble the aesthetic of Spotify's user interface. JavaScript powers the interactive elements, such as dynamic content loading, playlist management, and audio playback controls. This clone provides users with a familiar and intuitive music streaming experience, all within their web browser.
+
+<h2>Technologies used :</h2>
+
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>JavaScript</li>
+</ol>
+
+<h2>Spotify Clone Preview : </h2>
+
+<ol>
+  <li>On PC : <img width="1078" alt="image" src="https://github.com/AmithBV0606/Spotify-Clone/assets/154083629/c0619653-75b2-4dd2-838c-004c3ec3a576"></li>
+  <li>On Phone : <img width="170" alt="image" src="https://github.com/AmithBV0606/Spotify-Clone/assets/154083629/09b4e305-7dc5-44c8-bc65-0849d886e4f3"></li>
+</ol>
